@@ -36,6 +36,7 @@ Check the status of the node via the following command:
 Make sure the *Address* it shows is same as *contact_points* in the app.py.
 
     cluster = Cluster(contact_points=["172.17.0.6"],port=9042)
+Notice: If you can't deploy MNIST-service in Docker, the reason may be you should start a Cassandra server first.
 
 ## Test the app
 
