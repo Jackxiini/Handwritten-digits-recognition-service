@@ -39,7 +39,7 @@ Make sure the *Address* it shows is same as *contact_points* in the app.py.
 
 ## Test the app
 
-Go to that URL in a web browser. Press the ***Browse...*** button, choose the test file, press ***Upload*** button and then you can see your result.
+Go to that URL(http://localhost:4000/) in a web browser. Press the ***Browse...*** button, choose the test file, press ***Upload*** button and then you can see your result.
 
 ## Manage the database
 
