@@ -9,8 +9,8 @@ This project uses Tensorflow's MNIST dataset to train and test the model. Using 
 
 If you don't have Docker already, download and install Docker from [here](https://docs.docker.com/install/).
 
-## Prepare the model
-You can use model_maker.py to create the model. In this project, I used model4 to make the recognization program.
+## Prepare model
+You can use model_maker.py to create model. In this project, I used model4 to make the recognization program.
 Notice: If you create your own model, you should change the path in app.py in order to use your model. 
 
      saver.restore(sess, "YOUR_OWN_MODEL_PATH")
