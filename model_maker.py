@@ -27,5 +27,5 @@ with tf.Session() as sess:
         batch_xs, batch_ys = mnist.train.next_batch(100)
         sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 
-    save_path = saver.save(sess, "/home/wenjie/Desktop/Big_data_class/Project_Wenjie/model3/")
+    save_path = saver.save(sess, "./model5/")
 print ("Model saved in file: ", save_path)
