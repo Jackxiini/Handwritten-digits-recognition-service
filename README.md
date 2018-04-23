@@ -20,7 +20,7 @@ Notice: If you create your own model, you should change the path in app.py in or
 Build the image in Docker.
 
     $ docker build -t IMAGE_NAME .
-Run the app. I map my machine's port 4000 to the container's published port 5000.
+Run the app. I mapped my machine's port 4000 to the container's published port 5000.
 
     $ docker run -d -p 4000:5000 IMAGE_NAME
 You can also check [the docker tutorial](https://docs.docker.com/get-started/part2/) for this part.
