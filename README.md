@@ -29,13 +29,11 @@ You can also check [the docker tutorial](https://docs.docker.com/get-started/par
 ## Start a Cassandra server instance 
 Change `some` to any name you want:
 
-    $ docker run --name some-cassandra -p 9042:9042 -d cassandra:latest
+    $ docker run --name some-cassandra -p 172.17.0.1:9042:9042 -d cassandra:latest
 Check the status of the node via the following command:
 
     $ docker exec some-cassandra nodetool status
-Make sure the *Address* it shows is same as *contact_points* in the app.py.
 
-    cluster = Cluster(contact_points=["172.17.0.6"],port=9042)
 Notice: If you can't deploy MNIST-service in Docker, the reason may be you should start a Cassandra server first.
 
 ## Test the app
