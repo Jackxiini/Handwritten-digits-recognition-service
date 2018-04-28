@@ -26,7 +26,7 @@ saver.restore(sess, "model4/model")
 ##############
 
 ### Connect to the cassandra database
-cluster = Cluster(contact_points=["172.17.0.6"],port=9042)
+cluster = Cluster(contact_points=["172.17.0.1"],port=9042)
 session = cluster.connect()
 ### Create KEYSPACE and TABLE if not exist
 session.execute("create KEYSPACE if not exists mnist_database WITH replication = {'class':'SimpleStrategy', 'replication_factor': 2};")
