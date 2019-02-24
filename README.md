@@ -15,7 +15,7 @@ Notice: If you create your own model, you should change the path in app.py in or
 
      saver.restore(sess, "YOUR_OWN_MODEL_PATH")
 
-## Deploy MNIST-service in Docker
+## Deploy service in Docker
 
 Build the image in Docker.
 
