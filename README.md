@@ -1,4 +1,4 @@
-# MNIST Service with Cassandra database
+# Handwritten digit recognition service
 
 This project uses Tensorflow's MNIST dataset to train and test the model. Using a trained model to create a program that recognizes handwritten digits, and then publishes service by using Flask, deploys the service to a docker container, and stores the data in a database by connecting a Cassandra container.
 
